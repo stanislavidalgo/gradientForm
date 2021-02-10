@@ -39,6 +39,7 @@ background-color: #fff;
     display: flex;
     justify-content: space-between;
     margin: 0 0 2em 0;
+    
 }
 .FLnames {
     display: flex;
@@ -84,7 +85,7 @@ background-color: #fff;
 }
 
 .company input {
-    width: 100%;
+    width: 99%;
     height: 50px;
     border-radius: 9px;
 } 
@@ -104,7 +105,7 @@ background-color: #fff;
 
 
 .email input {
-    width: 100%;
+    width: 99%;
     height: 50px;
     border-radius: 9px;
 }
@@ -112,3 +113,82 @@ background-color: #fff;
 .emails {
     width: 80%;
 }
+
+
+
+/* ================= phone ===================== */
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2em 0;
+}
+.FLphones {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.areaCode {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20%;
+
+}
+
+.areaCode input{
+    height: 50px;
+    border-radius: 9px;
+    
+}
+
+.phoneNumber {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 70%;
+}
+
+.phoneNumber input{
+    height: 50px;
+    border-radius: 9px;
+    
+}
+
+
+
+/* ========== subject ===============  */
+
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2em 0;
+    
+}
+
+select {
+    width: 100%;
+    height: 55px;
+    border-radius: 9px;
+}
+
+.subjects {
+    width: 80%;
+}
+
+/* ========== choice ============ */
+.choice {
+    display: flex;
+  
+}
+ #choice1 {
+     margin-left: 1em;
+ }
+
+ #choice2 {
+     margin-left: 3em;
+ }
+
+ /* ======== button =========== */
