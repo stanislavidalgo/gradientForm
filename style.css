@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right, #16BFFD, #991b88);
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+
+.head {
+    text-transform: uppercase;
+    font-family: monospace;
+    color: white;
+    background-color: black;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+
+}
