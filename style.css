@@ -1,16 +1,24 @@
+* {
+    box-sizing: border-box;
+
+}
+
 body {
   background-image: linear-gradient(to right, #16BFFD, #991b88);
+  
 }
 
 
 .container {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
     background-color: #fff;
+    
     
 }
 
 .head {
+    margin-top: 10em;
     text-transform: uppercase;
     font-family: monospace;
     color: white;
@@ -18,6 +26,7 @@ body {
     height: 5em;
     display: flex;
     justify-content: center;
+    
 }
 
 form {
@@ -31,8 +40,18 @@ background-color: #fff;
     margin: 3em 4em 3em 4em;
     background-color: #fff;
     max-width: 800px;
+    font-family: monospace;
+    font-weight: 900;
 }
 
+input {
+    background-color:rgb(241, 240, 240);
+    border: none;
+}
+
+label {
+    color: rgb(199, 189, 189);
+}
 /* ============ section name ============== */
 
 .name {
@@ -57,7 +76,7 @@ background-color: #fff;
 
 .FLname input{
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
     
 }
 
@@ -70,7 +89,7 @@ background-color: #fff;
 
 .FLname2 input{
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
     
 }
 
@@ -87,7 +106,7 @@ background-color: #fff;
 .company input {
     width: 99%;
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
 } 
 
 .companys {
@@ -107,7 +126,7 @@ background-color: #fff;
 .email input {
     width: 99%;
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
 }
 
 .emails {
@@ -139,7 +158,7 @@ background-color: #fff;
 
 .areaCode input{
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
     
 }
 
@@ -152,7 +171,7 @@ background-color: #fff;
 
 .phoneNumber input{
     height: 50px;
-    border-radius: 9px;
+    border-radius: 5px;
     
 }
 
@@ -171,7 +190,10 @@ background-color: #fff;
 select {
     width: 100%;
     height: 55px;
-    border-radius: 9px;
+    border-radius: 5px;
+    background-color: rgb(241, 240, 240);
+    border: none;
+    color: rgb(161, 144, 144);
 }
 
 .subjects {
@@ -181,6 +203,7 @@ select {
 /* ========== choice ============ */
 .choice {
     display: flex;
+    margin: 0 0 2em 0;
   
 }
  #choice1 {
@@ -192,3 +215,14 @@ select {
  }
 
  /* ======== button =========== */
+
+ button {
+     color: white;
+     background-color:rgb(209, 124, 124);
+     text-transform: uppercase;
+     font-family: monospace;
+     width: 10em;
+     border-radius: 5px;
+     margin: 0 0 3em 0;
+     border: none;
+ }
